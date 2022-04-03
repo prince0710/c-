@@ -1,12 +1,13 @@
-#include<bits/stdc++.h>
+#include<iostream>
+#include<conio.h>
 using namespace std;
 int main()
 {
     int n;
-    cout<<"enter the number"<<endl;
+    cout<<"enter the number";
     cin>>n;
-    int i=1;
     int sum=0;
+    int i=1;
     while(i<=n)
     {
         sum=sum+i;
@@ -14,5 +15,4 @@ int main()
     }
     cout<<sum;
     return 0;
-    
 }
